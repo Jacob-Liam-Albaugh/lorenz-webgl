@@ -1,6 +1,6 @@
 {
-  "name": "@augno/ui",
-  "description": "A collection of react components and other user interface utilities for Augno.",
+  "name": "lorenz-webgl",
+  "description": "A lorenz system react component.",
   "version": "0.7.5",
   "author": "Augno, Inc.",
   "type": "module",
@@ -84,14 +84,16 @@
     "@xyflow/react": "^12.6.4"
   },
   "dependencies": {
-    "copy-to-clipboard": "^3.3.3",
-    "rehype-parse": "^9.0.1",
-    "rehype-highlight": "^7.0.2",
-    "rehype-stringify": "^10.0.1",
+    "@vitejs/plugin-react": "^4.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "unified": "^11.0.5",
+    "copy-to-clipboard": "^3.3.3",
+    "rehype-highlight": "^7.0.2",
+    "rehype-parse": "^9.0.1",
+    "rehype-stringify": "^10.0.1",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss": "^4.1.7"
+    "tailwindcss": "^4.1.7",
+    "unified": "^11.0.5",
+    "vite": "^6.3.5"
   }
 }

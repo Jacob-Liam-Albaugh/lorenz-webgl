@@ -1,0 +1,27 @@
+{
+  "presets": [
+    ["@babel/preset-env", { "targets": { "node": "current" } }],
+    ["@babel/preset-react", { "runtime": "automatic" }],
+    ["@babel/preset-typescript", { "allowDeclareFields": true }]
+  ],
+  "plugins": [
+    "babel-plugin-inline-import",
+    "babel-plugin-module-resolver"
+  ],
+  "env": {
+    "esm": {
+      "presets": [
+        ["@babel/preset-env", { "modules": false }],
+        ["@babel/preset-react", { "runtime": "automatic" }],
+        ["@babel/preset-typescript", { "allowDeclareFields": true }]
+      ]
+    },
+    "cjs": {
+      "presets": [
+        ["@babel/preset-env", { "modules": "cjs" }],
+        ["@babel/preset-react", { "runtime": "automatic" }],
+        ["@babel/preset-typescript", { "allowDeclareFields": true }]
+      ]
+    }
+  }
+} 
