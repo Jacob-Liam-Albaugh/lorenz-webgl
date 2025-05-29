@@ -203,7 +203,7 @@ export const ArtisticPigments: Story = {
   args: {
     width: 800,
     height: 600,
-    particleCount: 4,
+    particleCount: 8,
     customColors: [
       [0.537, 0.357, 0.482],  // Dusky madder violet (#895B7B)
       [0.478, 0.537, 0.722],  // Deep lyons blue (#7A89B8) 
